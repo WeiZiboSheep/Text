@@ -13,4 +13,16 @@
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.4" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Include="wwwroot\css\index.css" />
+    <None Include="wwwroot\js\calculator.min.js" />
+    <None Include="wwwroot\js\index.js" />
+    <None Include="wwwroot\js\jquery.min.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Content\css\" />
+    <Folder Include="Content\js\" />
+  </ItemGroup>
+
 </Project>
