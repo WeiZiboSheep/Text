@@ -10,6 +10,7 @@ namespace WebApplication1.Controllers
     {
         public IActionResult Index()
         {
+            var result = "11111";
             return View();
         }
     }
